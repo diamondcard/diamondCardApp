@@ -1,0 +1,1848 @@
+
+.ratingStarImage {
+	width: 15px;	
+}
+
+/* Loader CSS */
+
+#pageLoader {
+	z-index: 9999999;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 140px;
+	height: auto;
+	margin-left: -80px;
+	margin-top: -80px;
+	padding: 10px;
+	background-image: none;
+	background: none;
+	filter: Alpha(Opacity=100);
+	opacity: 1;
+	box-shadow: 0 1px 1px -1px white;
+	border: 0;
+}
+
+#pageLoader div {
+	width: 140px;
+	height: 120px;
+	margin: 0;
+	padding: 0;
+	background-color: #C2C2C2;
+	filter: Alpha(Opacity=95);
+	opacity: 0.95;
+	border-radius: 6px;
+}
+
+#pageLoader .ui-icon {
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	width: 44px;
+	height: 44px;
+	margin: 0 auto 10px;	
+	padding: 8px;
+	background-color: #185691;
+	background-position: 8px 8px;
+	background-repeat: no-repeat;
+	filter: Alpha(Opacity=100);
+	opacity: 1;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 0;
+	border-radius: 6px;
+}
+
+#pageLoader h1 {
+	width: 140px;	
+	position: absolute;
+	bottom: 20px;
+	left: 10px;
+	opacity: 1;	
+	color: #000000;
+}
+
+/* Header CSS */
+
+.ui-header-fixed {
+	min-height: 50px;
+}
+
+.ui-header .ui-btn, .ui-footer .ui-btn {
+	margin-top: 6px;
+}
+
+div[data-role="header"].ui-header h1 {
+	margin: 0;
+	padding: 15px 90px;	
+}
+
+div[data-role="header"].ui-header h1.headerWithLogo {
+	margin: 0;
+	padding: 0;	
+	text-align: center;
+	font-size: 0;
+	max-height: 50px;
+}
+
+div[data-role="header"].ui-header h1 img {
+	max-height: 40px;
+	margin: 0;
+	padding-right: 0px;
+	padding-top: 5px;
+	padding-bottom: 4px;
+}
+
+
+/* Error Div CSS */
+
+div.errorDiv {
+	text-align: center;
+	padding-top: 20%;
+}
+
+div.errorDiv p {
+	margin: 0;
+	font-size: 1em;
+	font-weight: bold;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+div.errorDiv a.tryAgainButton {
+	width: 80%;
+}
+
+/* Warning Container CSS */
+
+div.warningContainer {
+	font-size: 0.9em;
+	color: red;
+	font-weight: bold;
+}
+
+/* More Info Button Div CSS */
+
+div.moreInfoButton {
+	margin: 0;
+	margin-bottom: 10%;
+	padding: 0;
+	padding-top: 2em;
+	text-align: center;
+}
+
+div.moreInfoButton span.ui-btn-inner {
+	padding: 8px 35px;
+}
+
+
+/* PageMain CSS */
+
+#pageMain div[data-role="content"] {
+	margin: 0;
+}
+
+.mainNavBar {
+	margin: 0 5%;
+}
+
+.navBar-button-2-left {
+    display: inline-block;
+	position: relative;
+	width: 47%;
+	margin-right: 4%;
+	text-align: center;
+}
+
+.navBar-button-2-right {
+    display: inline-block;
+	position: relative;
+	width: 47%;
+	text-align: center;
+}
+
+.navBar-button-2-left span.ui-btn-inner,
+.navBar-button-2-right span.ui-btn-inner {
+	padding: 0px;
+}
+
+.navBar-button-2-left img {
+	position: absolute;
+}
+
+.navBar-button-2-right img {
+	position: absolute;
+}
+
+.navBar-button-2-left a,
+.navBar-button-2-right a {
+    margin: 0;
+}
+
+
+/*
+
+
+@media screen and (min-width: 980px) and (max-width: 1639px)
+{
+	#pageMain div[data-role="content"] {
+		padding: 30px 0;
+	}
+	
+	.navBar-button-2-left span.ui-btn-inner {
+		padding: 30px 0px 30px 20px;
+		font-size: 1.2em;
+		border: 1px solid black;		
+	}
+	
+	.navBar-button-2-right span.ui-btn-inner {
+		padding: 30px 20px 30px 0px;
+		font-size: 1.2em;
+	}
+	
+	.navBar-button-2-left img {
+		position: absolute;
+		top: 18px;
+		left: -10px;
+		width: 52px;
+	}
+	
+	.navBar-button-2-right img {
+		position: absolute;
+		top: 19px;
+		right: -10px;
+		width: 52px;
+	}
+
+	.navBar-button-2-left a,
+	.navBar-button-2-right a {
+   		margin-bottom: 25px;
+	}
+}
+
+*/
+
+@media screen and (device-width: 320px)
+{
+	#pageMain div[data-role="content"] {
+		padding: 22px 0;
+	}
+	
+	.navBar-button-2-left span.ui-btn-inner {
+		padding: 16px 0px 16px 14px;
+		font-size: 1em;	
+	}
+	
+	.navBar-button-2-right span.ui-btn-inner {
+		padding: 16px 14px 16px 0px;
+		font-size: 1em;
+	}
+	
+	.navBar-button-2-left img {
+		position: absolute;
+		top: 8px;
+		left: -10px;
+		width: 36px;
+	}
+	
+	.navBar-button-2-right img {
+		position: absolute;
+		top: 8px;
+		right: -10px;
+		width: 36px;
+	}
+
+	.navBar-button-2-left a, .navBar-button-2-right a {
+   		margin-bottom: 22px;
+	}
+	
+}
+
+@media screen and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2)
+{
+	#pageMain div[data-role="content"] {
+		padding: 22px 0;
+	}
+	
+	.navBar-button-2-left span.ui-btn-inner {
+		padding: 16px 0px 16px 14px;
+		font-size: 1em;	
+	}
+	
+	.navBar-button-2-right span.ui-btn-inner {
+		padding: 16px 14px 16px 0px;
+		font-size: 1em;
+	}
+	
+	.navBar-button-2-left img {
+		position: absolute;
+		top: 8px;
+		left: -10px;
+		width: 36px;
+	}
+	
+	.navBar-button-2-right img {
+		position: absolute;
+		top: 8px;
+		right: -10px;
+		width: 36px;
+	}
+
+	.navBar-button-2-left a, .navBar-button-2-right a {
+   		margin-bottom: 22px;
+	}
+	
+}
+
+
+
+/*----------------- Display iPad ----------------------*/
+
+@media screen and (min-device-width: 768px)
+{
+	#pageMain div[data-role="content"] {
+		padding: 40px 0;
+	}
+	
+	.navBar-button-2-left span.ui-btn-inner {
+		padding: 30px 0px 30px 14px;
+		font-size: 1.3em;	
+	}
+	
+	.navBar-button-2-right span.ui-btn-inner {
+		padding: 30px 14px 30px 0px;
+		font-size: 1.3em;
+	}
+	
+	.navBar-button-2-left img {
+		position: absolute;
+		top: 15px;
+		left: -10px;
+		width: 60px;
+	}
+	
+	.navBar-button-2-right img {
+		position: absolute;
+		top: 13px;
+		right: -10px;
+		width: 60px;
+	}
+
+	.navBar-button-2-left a, .navBar-button-2-right a {
+   		margin-bottom: 30px;
+	}
+	
+	
+	div[data-role="header"].ui-header h1.headerWithLogo {
+		margin: 0;
+		padding: 0;	
+		text-align: center;
+		font-size: 0;
+		max-height: 60px;
+	}
+	
+	.ui-header-fixed {
+		min-height: 60px;
+	}
+	
+	div[data-role="header"].ui-header h1 img {
+		max-height: 55px;
+		margin: 0;
+		padding: 4px 0 0 0;
+	}
+
+	.ui-header .ui-btn, .ui-footer .ui-btn {
+		margin-top: 9px;
+	}
+	
+	.ui-header .ui-btn-inner .ui-btn-text {
+	    -moz-user-select: none;
+	    font-size: 1.3em;
+	    margin-top: 5px;
+	    padding: 5px;
+	    position: relative;
+	    width: 100%;
+	    z-index: 1;
+	}
+	
+	div.ui-header[data-role="header"] h1 {
+    margin: 0;
+    padding: 19px 90px 10px 90px;
+    font-size: 1.3em;
+}
+
+}
+
+
+
+@media screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2)
+{
+	#pageMain div[data-role="content"] {
+		padding: 40px 0;
+	}
+	
+	.navBar-button-2-left span.ui-btn-inner {
+		padding: 30px 0px 30px 14px;
+		font-size: 1.3em;	
+	}
+	
+	.navBar-button-2-right span.ui-btn-inner {
+		padding: 30px 14px 30px 0px;
+		font-size: 1.3em;
+	}
+	
+	.navBar-button-2-left img {
+		position: absolute;
+		top: 15px;
+		left: -10px;
+		width: 60px;
+	}
+	
+	.navBar-button-2-right img {
+		position: absolute;
+		top: 13px;
+		right: -10px;
+		width: 60px;
+	}
+
+	.navBar-button-2-left a, .navBar-button-2-right a {
+   		margin-bottom: 30px;
+	}
+	
+	
+	div[data-role="header"].ui-header h1.headerWithLogo {
+		margin: 0;
+		padding: 0;	
+		text-align: center;
+		font-size: 0;
+		max-height: 60px;
+	}
+	
+	.ui-header-fixed {
+		min-height: 60px;
+	}
+	
+	div[data-role="header"].ui-header h1 img {
+		max-height: 55px;
+		margin: 0;
+		padding: 4px 0 0 0;
+	}
+
+	.ui-header .ui-btn, .ui-footer .ui-btn {
+		margin-top: 9px;
+	}
+	
+	.ui-header .ui-btn-inner .ui-btn-text {
+	    -moz-user-select: none;
+	    font-size: 1.3em;
+	    margin-top: 5px;
+	    padding: 5px;
+	    position: relative;
+	    width: 100%;
+	    z-index: 1;
+	}
+	
+	div.ui-header[data-role="header"] h1 {
+    margin: 0;
+    padding: 19px 90px 10px 90px;
+    font-size: 1.3em;
+}
+
+}
+
+
+
+
+/*----------------- End Display iPad ----------------------*/
+
+
+
+
+#mainFooter {
+	position: fixed;
+	bottom: -4px;
+	width: 100%;
+}
+
+#mainFooter img {
+	width: 100%;
+}
+	
+/* PageSearch CSS */
+
+#pageSearch div.searchForm {
+	padding-top: 5%;
+	text-align: center;
+}
+
+#pageSearch div.searchForm h1 {	
+	margin: 0;
+	padding: 0 10%;
+	font-size: 1em;
+	text-align: center;
+}
+
+#pageSearch div.searchForm div.ui-input-search {
+	margin: 0;
+	margin-top: 5%;
+	width: 80%;
+	display: inline-block;
+}
+
+#searchByNameButton {
+	width: 80%;
+	margin: 5% 10% 0 10%;
+}
+
+#pageSearch div.warningContainer {
+	padding-top: 5%;
+}
+
+#pageSearch div.drivenSearch {
+	padding-top: 20%;
+	text-align: center;
+}
+
+#pageSearch div.drivenSearch h1 {
+	margin: 0;	
+	font-size: 1em;
+	text-align: center;
+	font-style: italic;
+}
+
+#pageSearch div.drivenSearch a {
+	margin: 0;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 80%;
+}
+
+/* PageWhat CSS */
+
+#whatDiv #selectCategoryContainer {
+	padding: 5%;
+	padding-bottom: 15%;
+	text-align: center;
+}
+
+#whatDiv #selectSubCategoryContainer {
+	padding: 5%;
+	padding-bottom: 15%;
+	text-align: center;
+}
+
+#whatDiv h1 {
+	margin: 0;
+	font-size: 1em;
+	text-align: center;	
+}
+
+#whatDiv div.ui-select div.ui-btn {
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 0;
+}
+
+#whatDiv div.warningContainer {
+	padding-top: 5%;
+}
+
+#whatDiv a.searchForwardButton {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	margin-left: 3%;
+}
+
+#whatDiv a.searchForwardButton span.ui-btn-inner {
+	padding: .6em 0;
+	font-size: 1em;
+}
+
+#whatDiv #pageWhatSearch {
+	margin: 0 5%;	
+}
+
+
+/* PageWhere CSS */
+
+#whereDiv #selectProvinceContainer {
+	padding: 5%;
+	padding-bottom: 15%;
+	text-align: center;
+}
+
+#whereDiv #selectCityContainer {
+	padding: 5%;
+	padding-bottom: 15%;
+	text-align: center;
+}
+
+#whereDiv h1 {
+	margin: 0;
+	font-size: 1em;
+	text-align: center;	
+}
+
+#whereDiv div.ui-select div.ui-btn {
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 0;
+}
+
+#whereDiv div.warningContainer {
+	padding-top: 5%;
+}
+
+#whereDiv a.searchForwardButton {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	margin-left: 3%;
+}
+
+#whereDiv a.searchForwardButton span.ui-btn-inner {
+	padding: .6em 0;
+	font-size: 1em;
+}
+
+#whereDiv #pageWhereSearch {
+	margin: 0 5%;	
+}
+
+
+/* PageWhen CSS */
+
+#whenDiv {
+	padding-top: 5%;
+	text-align: center;
+}
+
+#whenDiv #fieldsetDay {
+	margin: 0;	
+	padding: 0 5%;
+}
+
+#whenDiv #fieldsetDay span.ui-btn-inner {
+	padding: 15px 0 15px 55px;	
+	font-size: 1em;
+}
+
+#whenDiv #fieldsetDay label.ui-btn span.ui-icon {
+	left: 20px;	
+}
+
+#whenDiv #fieldsetLunchOrDinner {
+	margin: 0;
+	padding: 5% 5% 0% 5%;	
+}
+
+#whenDiv #fieldsetLunchOrDinner div.ui-controlgroup-controls {
+	width: 100%	
+}
+
+#whenDiv #fieldsetLunchOrDinner div.ui-checkbox {
+	width: 50%;
+}
+
+#whenDiv #fieldsetLunchOrDinner div.ui-checkbox label span.ui-btn-inner {
+	padding: 10px;
+	font-size: 1em;
+}
+
+#whenDiv a.searchForwardButton {
+	margin-top: 15%;
+	margin-bottom: 10%;
+	width: 42%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#whenDiv a.searchForwardButton span.ui-btn-inner {
+	padding: .6em 0;
+	font-size: 1em;
+}
+
+#whenDiv #pageWhenSearch {
+	margin: 15% 5% 0 0%
+}
+
+
+/* PageHow CSS */
+
+#howDiv {
+	padding: 5% 5% 0 5%;
+	text-align: center;
+}
+
+#howDiv h1 {
+	margin: 0;
+	padding-bottom: 5%;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#pageHowFieldsetDiscount div.ui-controlgroup-controls {
+	width: 100%;	
+}
+
+#pageHowFieldsetDiscount fieldset {
+    margin: 0;	
+}
+
+#pageHowFieldsetDiscount div.ui-radio {
+	width: 20%;
+}
+
+#pageHowFieldsetDiscount div.ui-radio label span.ui-btn-inner {
+	padding: 10px 0;
+	font-size: 1em;
+}
+
+#pageHowFieldsetDiscount span.percentSymbol {
+	padding-left: 2px;	
+	font-size: 0.8em;
+	font-weight: normal;	
+}
+
+#pageHowFieldsetRating { 
+	padding-top: 20%;
+}
+
+#pageHowSelectableStarDiv span {
+	display: inline-block;
+	max-width: 50px;
+	width: 15%;
+}
+
+#pageHowSelectableStarDiv img {
+	width: 30px;
+}
+
+#otherOptionsDiv {
+	padding: 20% 5% 0 5%;
+	text-align: center;	
+}
+
+#otherOptionsDiv h1 {
+	margin: 0;
+	padding-bottom: 5%;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#otherOptionsDiv div.pageHowFieldset fieldset {	
+	 margin: 0;	
+}
+
+#otherOptionsDiv div.pageHowFieldset label.ui-btn span.ui-btn-inner {
+	padding: 15px 0 15px 55px;	
+	font-size: 1em;
+}
+
+#otherOptionsDiv div.pageHowFieldset label.ui-btn span.ui-icon {
+	left: 20px;	
+}
+
+#pageHow a.searchForwardButton {
+	margin: 15% 5% 10% 5%;
+}
+
+#pageHow a.searchForwardButton span.ui-btn-inner {
+	padding: .6em 0;
+	font-size: 1em;
+} 
+
+
+/* PageCategory CSS */
+
+div#pageCategoryContent,
+div#pageSubCategoryContent {
+	margin-top: 2em;
+}
+
+
+#listCategory a {
+	padding-right: 50px;	
+}
+
+#listCategory li[data-role="list-divider"] {
+	padding: 6px 0;	
+	text-align: center;	
+	font-size: 1em;
+}
+
+#listCategory h1 {
+	font-size: 1em;
+	margin: 0;
+}
+
+#listCategory span.ui-li-count {
+	width: 25px;
+	margin-bottom: 2px;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+/* PageSubCategory CSS */
+
+#listSubCategory a {
+	padding-right: 50px;	
+}
+
+#listSubCategory li[data-role="list-divider"] {
+	padding: 6px 0;
+	font-size: 1em;
+	text-align: center;		
+}
+
+#listSubCategory h1 {
+	font-size: 1em;
+	margin: 0;
+}
+
+#listSubCategory span.ui-li-count {
+	width: 25px;
+	margin-bottom: 2px;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+/* PageResult CSS */
+	
+#pageResultHeader {
+	padding: 6px;
+	margin: 0px;
+	border-top-width: 1px;
+	border-bottom-width: 0px;
+	text-align: center;
+}
+
+#pageResultHeader h1 {
+	margin: 0;
+	padding: 0;	
+	font-size: 1em;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#pageResultHeader span {
+	font-style: italic;
+	font-size: 1.1em;	
+}
+
+#listResult a.ui-link-inherit {
+	padding-left: 100px;
+	padding-right: 10px;
+}
+
+#listResult a.ui-link-inherit img.ui-li-thumb {
+	max-height: 40px;
+	min-height: 40px;
+	max-width: 80px;
+	min-width: 80px;
+	margin-top: 15px;
+	margin-left: 5px;
+	border: 1px solid #AAA;
+	padding: 2px;
+}
+
+#listResult span.province {
+	font-weight: bold;	
+}
+
+#listResult a.ui-link-inherit h1 {
+	margin-top: 0.2em;
+	margin-bottom: 0.5em;
+	padding-right: 10px;
+	font-size: 0.9em;
+}
+
+#listResult p.companyAddress,
+#listResult p.companyCity {
+	padding-top: 2px;
+	margin-right: 70px;
+}
+
+#listResult p.companyCity {
+	margin-bottom: 0;
+}
+
+#listResult p.companyAddress.extendedAddress,
+#listResult p.companyCity.extendedAddress {
+	margin-right: 0;
+}
+
+#listResult p.companyAddress.shortAddress,
+#listResult p.companyCity.shortAddress {
+	margin-right: 100px;
+}
+
+#listResult p.ui-li-aside {
+	position: absolute;
+	top: 55px;
+	right: 20px;
+	margin-top: -7px;
+	padding: 2px 5px 0 5px;
+	font-size: 10px;
+}
+
+#listResult p.ui-li-count {
+	position: absolute;
+	top: 55px;
+	right: 20px;
+	margin-top: -7px;
+	padding: 4px 5px 3px 5px;
+	font-size: 10px;
+}
+
+.rating-star-5 {
+	height: 16px;
+	width: 67px;
+	background-image: url("./images/stars.png");
+	background-repeat: no-repeat;
+	background-position: 4px 2px;
+}
+
+.rating-star-4 {
+	height: 16px;
+	width: 67px;
+	background-image: url("./images/stars.png");
+	background-repeat: no-repeat;
+	background-position: 21px 2px;
+}
+
+.rating-star-3 {
+	height: 16px;
+	width: 67px;
+	background-image: url("./images/stars.png");
+	background-repeat: no-repeat;
+	background-position: 36px 2px;
+}
+
+.rating-star-2 {
+	height: 16px;
+	width: 67px;
+	background-image: url("./images/stars.png");
+	background-repeat: no-repeat;
+	background-position: 51px 2px;
+}
+
+.rating-star-1 {
+	height: 16px;
+	width: 67px;
+	background-image: url("./images/stars.png");
+	background-repeat: no-repeat;
+background-position: 66px 2px;
+}
+
+#listResult li.emptyListResult {
+	text-align: center;	
+}
+
+#showResultOnMapList {
+	width: 25%;	
+}
+
+#orderByList {
+	width: 75%;
+}
+
+#orderByList div.ui-btn-corner-all {
+	-moz-border-radius: 0 /*{global-radii-buttons}*/;
+	-webkit-border-radius: 0 /*{global-radii-buttons}*/;
+	border-radius: 0 /*{global-radii-buttons}*/;
+}
+
+/* PageMap CSS */
+
+#pageMap {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#pageMap div[data-role="content"] {
+	width: 100%;	
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#listDirections li[data-role="list-divider"] {
+	font-weight: bold;
+	font-size: 0.9em;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+#listDirections h1 {
+	font-weight: normal;
+	margin: 0;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	white-space: normal;
+	line-height: 1.2;
+}
+
+#listDirections h1.directionSummary {
+	text-align: right;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+#listDirections h1 span.directionIndex {
+	font-size: 0.8em;
+	padding-right: 5px;
+	font-weight: bold;
+}
+
+#listDirections h1 span.directionInstruction {
+	font-size: 0.9em;
+}
+
+#listDirections p.directionTiming {
+	font-style: italic;
+	width: 75px;
+}
+
+#mapCanvas {
+	width: 100%;
+	height: 100%;
+}
+
+div.infoWindowContent {
+	text-align: center;	
+	overflow-y: scroll;
+}
+
+div.infoWindowContent img {
+	max-height: 50px;
+	min-height: 50px;
+	max-width: 80px;
+	min-width: 80px;
+	padding-bottom: 5px;
+}
+
+div.infoWindowContent p.companyName {
+	margin: 0;	
+	font-size: 0.9em;
+	font-weight: bold;
+	text-align: left;
+}
+
+div.infoWindowContent p.companyAddress {
+	margin: 0;
+	font-style: italic;
+	font-size: 0.8em;
+	padding-top: 3px;
+	text-align: left;
+}
+
+div.infoWindowContent p.companyCity {
+	margin: 0;
+	font-size: 0.8em;
+	padding-top: 3px;
+	text-align: left;
+}
+
+div.infoWindowContent p.companyCity span.province {
+	font-weight: bold;
+}
+
+div.infoWindowContent a[data-role="button"] {
+	margin-top: 1em;
+	max-width: 170px;
+	display: inline-block;
+}
+
+/* PageCompanyInfo CSS */
+
+div.headerCompanyName,
+div#pageResultHeader,
+div#pageCategoryHeader,
+div#pageSubCategoryHeader,
+div#headerCompanyRatingDetails {
+	padding: 7px 0 6px 0;
+	margin: 0px;
+	border-top-width: 1px;
+	border-bottom-width: 0px;
+	text-align: center;
+	font-size: 1em;
+    overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	position: fixed;
+	width: 100%;
+	z-index: 50;
+}
+
+div#pageCompanyInfoContent,
+div#pageCompanyPhotosContent,
+div#pageCompanyMenuContent,
+div#addEvaluation,
+div#pageResultContent {
+	margin-top: 2em;
+}
+
+
+div[data-role="footer"] span.ui-btn-inner {
+	padding: 15px 10px;
+	font-size: 0.85em;
+}
+
+#companyLogoAndBookmark {
+    position: relative;
+    min-height: 70px;
+	text-align: center;
+}
+
+#companyLogoAndBookmark div.bookmarksIcon {
+	position: absolute;
+	top: 0px;
+	right: 0;
+	-moz-border-radius: 5px /*{global-radii-buttons}*/;
+	-webkit-border-radius: 5px /*{global-radii-buttons}*/;
+	border-radius: 5px /*{global-radii-buttons}*/;
+}
+
+#companyLogoAndBookmark div.bookmarksIcon span.ui-btn-inner {
+    padding: 4px 3px;
+}
+
+#companyLogoAndBookmark div.bookmarksIcon img {
+    width: 30px;
+    height: 30px;
+}
+
+#companyLogoAndBookmark img.companyLogo {
+	border: 1px solid #AAA;
+	padding: 2px;
+}
+
+#pageCompanyInfo div.companyLocation {
+	position: relative;
+	padding-top: 10px;		
+}
+
+#pageCompanyInfo div.googleMapsIcon {
+	-moz-border-radius: 5px /*{global-radii-buttons}*/;
+	-webkit-border-radius: 5px /*{global-radii-buttons}*/;
+	border-radius: 5px /*{global-radii-buttons}*/;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	margin: 0;
+	margin-right: 15px;
+	margin-top: -2px;
+}
+
+#pageCompanyInfo div.googleMapsIcon span.ui-btn-inner {
+	padding: 1px 4px;
+}
+
+#pageCompanyInfo div.googleMapsIcon img {
+	width: 50px;
+	height: 50px;
+}
+
+#pageCompanyInfo p.companyAddress {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	padding-left: 80px;
+	font-size: 0.8em;
+	font-style: italic;
+	text-align: left;
+}
+
+#pageCompanyInfo p.companyCity {
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;	
+	padding-left: 80px;
+	font-size: 0.8em;
+	text-align: left;
+}
+
+#pageCompanyInfo p.companyRating {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	padding-top: 40px;
+	text-align: center;
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+#pageCompanyInfo span.companyStars {
+	position: relative;
+	top: 2px;
+	margin: 0;
+	padding: 0;
+	height: 16px;
+	width: 67px;
+}
+
+#pageCompanyInfo span.numberOfEvaluations {
+	padding-left: 10px;
+	padding-right: 3px;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+}
+
+#pageCompanyInfo p.addCompanyRating {
+	margin: 0;
+	padding-top: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+#pageCompanyInfo p.addCompanyRating a.ui-btn {
+	width: 175px;
+	display: inline-block;
+	margin: 0;
+}
+#pageCompanyInfo div.companyContact {
+	padding-top: 30px;
+	text-align: left;	
+}
+
+#pageCompanyInfo span.companyPhonesTitle,
+#pageCompanyInfo span.companyMobilesTitle,
+#pageCompanyInfo span.companyEmailsTitle,
+#pageCompanyInfo span.companyWebsitesTitle {
+	display: inline-block;
+	width: 70px;
+	font-size: 0.8em;
+	padding-right: 10px;
+}
+
+/*--------------------------------------------*/
+#pageCompanyInfo span.companyPhonesTitle,
+#pageCompanyInfo span.companyMobilesTitle {
+	vertical-align: top;
+	margin-top: 9px;
+}
+
+
+#pageCompanyInfo div.companyPhonesList,
+#pageCompanyInfo div.companyMobilesList {
+	display: inline-block;
+}
+/*--------------------------------------------*/
+
+#pageCompanyInfo div.companyContact a.ui-btn {
+	min-width: 110px;
+}
+
+#pageCompanyInfo div.companyContact span.ui-btn-inner {
+	padding: 3px 15px;	
+}
+
+#pageCompanyInfo span.companyProvince {
+	font-weight: bold;
+}
+
+#restaurantDiscountList,
+#discountList {	
+	margin-top: 2em;
+}
+
+#restaurantDiscountList li[data-role="list-divider"],
+#discountList li[data-role="list-divider"],
+#notesList li[data-role="list-divider"] {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-size: 0.9em;
+	text-align: left;
+}
+
+#restaurantDiscountList li[data-role="list-divider"] {
+	text-align: right;	
+}
+
+#restaurantDiscountList li[data-role="list-divider"] span.discountLunch {
+	padding-right: 43px;
+}
+
+#restaurantDiscountList li[data-role="list-divider"] span.discountDinner {
+	padding-right: 17px;
+}
+
+#restaurantDiscountList p.ui-li-count.discountLunch {
+	margin-right: 90px;
+	padding: 2px 10px;
+	font-size: 0.9em;	
+	min-width: 45px;
+	text-align: center;	
+}
+
+#restaurantDiscountList p.ui-li-count.discountDinner {
+	font-size: 0.9em;
+	padding: 2px 10px;
+	margin-right: 5px;
+	min-width: 45px;
+	text-align: center;
+}
+
+#restaurantDiscountList p.ui-li-count.discountLunch span,
+#restaurantDiscountList p.ui-li-count.discountDinner span {
+	font-size: 0.8em;
+	font-weight: normal;
+	padding-left: 2px;
+}
+
+#discountList li,
+#notesList li {
+	padding: 10px 20px;
+	font-size: 0.8em;
+	line-height: 1.4;
+	text-align: justify;	
+}
+
+#discountList span.discountValue {
+	padding-right: 6px;
+	font-size: 1.1em;
+}
+
+/* PageCompanyRatings CSS */
+
+#addEvaluation {
+	padding-bottom: 25px;
+}
+
+#listRatings h1 {
+	margin: 0;
+	margin-right: 60px;
+	padding: 5px 0;
+}
+
+#listRatings h1.emptyEvaluations {
+	margin: 0.6em 0;	
+	text-align: center;
+	font-size: 1em;
+}
+
+#listRatings h1 span.ratingTitle {
+	margin-right: 10px;
+	width: 55%;
+	display: inline-block;
+	font-size: 0.9em;
+	overflow: hidden;
+}
+
+#listRatings h1 span.ratingDate {
+	font-size: 0.8em;
+	font-weight: normal;
+	font-style: italic;
+	width: 45%;
+}
+
+#listRatings p.ui-li-aside {
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	border-bottom-width: 3px;
+	padding: 2px 5px 0 5px;
+	font-size: 10px;
+}
+
+
+/* PageAddEvaluation CSS */
+
+#pageAddEvaluationContent {
+	margin-top: 2em;
+}
+
+#pageAddEvaluationContent h1.pageAddEvaluationTitle {
+	font-size: 1.1em;
+	text-align: center;
+	margin-top: 20%;
+}
+
+#listComment h1 {
+	margin-top: 0;	
+}
+
+#listComment p.ui-li-desc {
+	margin: 0 10%;
+	padding: 0 5px;
+}
+
+#pageAddEvaluationContent fieldset {
+	text-align: center;
+}
+
+#saveEvaluationButton {
+	margin: 10% 0;
+}
+
+/* PageCompanyRatingDetails CSS */
+
+
+
+#listRatingDetails {
+	margin-top: 1.1em;
+}
+
+
+#listRatingDetails li[data-role="list-divider"] {
+	padding: 15px 20px;
+	font-size: 0.9em;
+	text-align: left;
+}
+
+#listRatingDetails li[data-role="list-divider"] span.ratingDate {
+	font-size: 0.8em;
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+
+#listRatingDetails li h1 {	
+	margin: 0;
+	padding: 10px 0;
+	font-size: 1em;
+}
+
+#listRatingDetails p.ui-li-aside {
+	position: absolute;	
+	top: 17px;
+	right: 10px;
+	border-bottom-width: 3px;
+	padding: 2px 5px 0 5px;
+	font-size: 10px;
+}
+
+/* PageCompanyMenu CSS */
+
+#listMenu h1.menuCategory {
+	margin: 0;
+	font-size: 0.9em;
+}
+
+#listMenu h1.emptyMenu {
+	text-align: center;
+	font-size: 1em;
+}
+
+#listMenu p.ui-li-count {
+	width: 25px;
+	margin-bottom: 2px;
+	text-align: center;
+	border-bottom-width: 3px;
+}
+
+/* PageCompanyMenuDetails CSS */
+
+#listMenuDetails {
+	margin-top: 1.1em;
+}
+
+#listMenuDetails li[data-role="list-divider"] {
+	padding-top: 13px;
+	padding-bottom: 13px;
+	font-size: 0.9em;
+	text-align: right;
+	padding-right: 10px;
+	min-height: 10px;
+}
+
+#listMenuDetails li {
+	padding-top: 0;
+	padding-right: 55px;
+	padding-left: 110px;
+	min-height: 65px;
+}
+
+#listMenuDetails p.galleryImageContainer.ui-li-desc {
+	position: absolute;
+	top: 14px;
+	left: 10px;
+}
+
+#listMenuDetails p.galleryImageContainer.ui-li-desc img {
+	max-width: 80px;
+	max-height: 60px;
+	border: 1px solid #AAA;
+	padding: 2px;
+}
+
+#listMenuDetails h1.menuItemName {
+	padding-top: 7px;
+	padding-right: 55px;
+	font-size: 0.9em;
+}
+
+#listMenuDetails p.menuItemIngredients {
+	padding-top: 2px;
+	padding-right: 55px;
+	overflow: visible;
+	white-space: normal;
+	font-style: italic;
+}
+
+#listMenuDetails p.ui-li-count {
+	width: 40px;	
+	border-bottom-width: 3px;
+	text-align: center;
+}
+
+/* PageCompanyPhotos CSS */
+
+#pageCompanyPhotosContent h1.emptyPhotos {
+	text-align: center;
+	font-size: 1em;
+}
+
+#pageCompanyPhotosContent ul.gallery {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 1em;
+}
+
+#pageCompanyPhotosContent ul.gallery li {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+#pageCompanyPhotosContent ul.gallery img {
+	width: 90%;
+	height: 90%;
+	max-width: 150px;
+	min-width: 150px;
+	max-height: 120px;
+	min-height: 120px;
+	border: 1px solid #AAA;
+	padding: 3px;
+}
+
+@media screen and (max-width: 360px)
+{
+	#pageCompanyPhotosContent ul.gallery img {
+		width: 90%;
+		height: 90%;
+		max-width: 80px;
+		min-width: 80px;
+		max-height: 80px;
+		min-height: 80px;
+	}	
+}
+
+@media screen and (min-width: 361px) and (max-width: 540px)
+{
+	#pageCompanyPhotosContent ul.gallery img {
+		width: 90%;
+		height: 90%;
+		max-width: 100px;
+		min-width: 100px;
+		max-height: 90px;
+		min-height: 90px;
+	}	
+}
+
+/* PageNews CSS */
+/* PageOffers CSS */
+/* PageEvents CSS */
+
+#pageNews div[data-role="header"] h1.ui-title,
+#pageOffers div[data-role="header"] h1.ui-title,
+#pageEvents div[data-role="header"] h1.ui-title {
+	padding-left: 110px;
+}
+
+#listNews li,
+#listOffers li,
+#listEvents li {
+	min-height: 82px;
+}
+
+#listNews li[data-role="list-divider"],
+#listOffers li[data-role="list-divider"],
+#listEvents li[data-role="list-divider"] {
+	text-align: right;
+	min-height: 16px;
+	max-height: 16px;
+	font-size: 0.9em;
+}
+
+#listNews a.ui-link-inherit,
+#listOffers a.ui-link-inherit,
+#listEvents a.ui-link-inherit {
+	padding: 15px 10px 15px 80px;
+}
+
+#listNews img.ui-li-thumb,
+#listOffers img.ui-li-thumb,
+#listEvents img.ui-li-thumb {
+	min-width: 60px;
+	max-width: 60px;
+	min-height: 60px;
+	max-height: 60px;
+	padding: 15px 10px;
+}
+
+#listNews h1,
+#listOffers h1,
+#listEvents h1 {
+	display: block;
+	margin: 0;
+	padding: 0 10px;
+	font-size: 0.9em;
+	line-height: 1.3;
+	text-align: justify;
+	overflow-y: visible;
+	white-space: normal;	
+}
+
+#pageNews span.moreInfoButton,
+#pageOffers span.moreInfoButton,
+#pageEvents span.moreInfoButton {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 3em;
+}
+
+#pageNewsDetailsContent,
+#pageOfferDetailsContent,
+#pageEventDetailsContent {
+	text-align: justify;
+	padding: 1em 1em;
+	line-height: 1.5em;
+}
+
+#pageNewsDetailsContent h1,
+#pageOfferDetailsContent h1,
+#pageEventDetailsContent h1 {
+	margin: 0;
+	text-align: center;
+	padding: 0 2em;
+	font-size: 1.2em;
+}
+
+#pageNewsDetailsContent h2,
+#pageOfferDetailsContent h2,
+#pageEventDetailsContent h2 {
+	margin-top: 1em;
+	margin-bottom: 2em;
+	margin-right: 0.5em;
+	font-size: 0.9em;
+	font-weight: normal;
+	text-align: right;
+	font-style: italic;
+}
+
+#pageNewsDetailsContent img,
+#pageOfferDetailsContent img,
+#pageEventDetailsContent img {
+	float: left;
+	padding-right: 1.5em;
+}
+
+/* PageLogin CSS */
+
+#pageLogin div.isLogout {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+	font-weight: bold;
+	color: #EB843D;
+}
+
+#pageLogin div.isLogout p {
+	margin: 0;	
+}
+
+#pageLogin div.loginInputDiv {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+#pageLogin div.loginInputDiv h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+#pageLogin div.warningContainer {
+	text-align: center;
+	margin-top: 5%;	
+}
+
+#pageLogin #loginButton {
+	width: 90%;
+	margin: 5% 0 5% 5%;
+}
+
+#registerDiv {
+	width: 100%;
+	margin-top: 5%;
+	border-top: 2px solid #AAA;
+}
+
+#registerDiv a {
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-right: 5%;
+}
+
+#retrievePasswordDiv {
+	width: 100%;
+	margin-top: 5%;
+}
+
+#retrievePasswordDiv a {
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-right: 5%;
+}
+
+/* PageUser CSS */
+
+#pageUserContent h1 {
+	margin: 0;
+	margin-top: 20px;
+	font-size: 0.9em;
+	font-weight: normal;
+	text-align: left;
+}
+
+#pageUserContenth1 span.username {
+	font-weight: bold;
+	font-size: 1.4em;
+	padding-left: 10px;
+}
+
+#pageUserContent p {
+	margin: 0;
+	margin-top: 20%;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+#pageUserContent p span.pinValue {
+	display: block;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 2em;	
+}
+
+/* PageBookmarks CSS */
+
+#listBookmarks li.emptyListResult {
+	text-align: center;
+}
+
+#listBookmarks li.removeBookmarkLi div.ui-btn-inner {
+	padding-right: 40px;	
+}
+
+#listBookmarks a.ui-link-inherit {
+	padding-left: 100px;
+	padding-right: 10px;
+}
+
+#listBookmarks a.ui-link-inherit img.ui-li-thumb {
+	max-height: 50px;
+	min-height: 50px;
+	max-width: 80px;
+	min-width: 80px;
+	padding-top: 15px;
+	padding-left: 5px;
+}
+
+#listBookmarks a.ui-link-inherit h1 {
+	margin-top: 0.2em;
+	margin-bottom: 0.5em;
+	padding-right: 10px;
+	font-size: 0.9em;
+}
+
+#listBookmarks p.companyAddress,
+#listBookmarks p.companyCity {
+	padding-top: 2px;
+	margin-right: 70px;
+}
+
+#listBookmarks p.companyCity {
+	margin-bottom: 0;
+}
+
+#listBookmarks p.companyAddress.extendedAddress,
+#listBookmarks p.companyCity.extendedAddress {
+	margin-right: 0;
+}
+
+#listBookmarks span.province {
+	font-weight: bold;	
+}
+
+/* PageAbout CSS */
+
+#pageAbout div.greenNumber {
+	text-align: center;	
+}
+
+#pageAbout div.center {
+	padding: 10px 10px;
+}
+
+#pageAbout div.centers h1,
+#pageAbout div.contacts h1 {
+	font-size: 1em;
+	border-bottom: 2px black solid;
+	padding-bottom: 2px;
+	padding-left: 10px;
+}
+
+#pageAbout div.centers p.centerTitle {
+	margin: 0;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+
+#pageAbout div.center p.centerAddress {
+	margin: 0;
+	padding-top: 10px;
+	font-size: 0.9em;
+}
+
+#pageAbout div.center p.centerCity {
+	margin: 0;
+	padding-top: 10px;
+	font-size: 0.9em;
+}
+
+#pageAbout div.center p.centerAddress span.city {
+	font-weight: bold;
+}
+
+#pageAbout div.center span.phoneTitle,
+#pageAbout div.center span.faxTitle,
+#pageAbout div.center span.emailTitle {
+	font-size: 0.9em;
+	width: 75px;
+	display: inline-block;
+}
+
+#pageAbout div.contacts p.contactsNotes {
+	font-size: 0.9em;
+	text-align: justify;
+	padding: 0 20px;
+	font-style: italic;
+}
+
+#pageAbout div.contacts {
+	margin-top: 15%;
+	text-align: center;
+}

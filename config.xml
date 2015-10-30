@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns	= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id			= "it.diamondcard.app"
+	version 	= "1.0.4">
+
+	<name>Diamond Card</name>
+
+	<description>
+		Diamond Card
+	</description>
+
+	<author href=""
+		email="">
+		Gruppo Diamond Card srl
+	</author>
+
+	<icon src="icons/ios/icon_ios_57.png" gap:platform="ios" width="57" height="57" />
+	<icon src="icons/ios/icon_ios_72.png" gap:platform="ios" width="72" height="72" />
+	<icon src="icons/ios/icon_ios_114.png" gap:platform="ios" width="114" height="114" />
+	<icon src="icons/ios/icon_ios_144.png" gap:platform="ios" width="144" height="144" />
+	
+	<gap:splash src="splash/ios/ios_launch_image_480.png" width="320" height="480" />
+	<gap:splash src="splash/ios/ios_launch_image_960.png" width="640" height="960" />
+	<gap:splash src="splash/ios/ios_launch_image_1024.png" width="768" height="1024" />
+	<gap:splash src="splash/ios/ios_launch_image_2048.png" width="1536" height="2048" />
+
+	<feature name="http://api.phonegap.com/1.0/notification"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+
+	<preference name="prerendered-icon" value="true" />	
+	<preference name="orientation" value="portrait" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="phonegap-version" value="3.6.3" />
+	<preference name="stay-in-webview" value="false" />
+	
+</widget>
