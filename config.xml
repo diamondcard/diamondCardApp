@@ -32,7 +32,7 @@
 	<preference name="prerendered-icon" value="true" />	
 	<preference name="orientation" value="portrait" />
 	<preference name="webviewbounce" value="false" />
-	<preference name="phonegap-version" value="3.6.3" />
+	<preference name="phonegap-version" value="cli-5.2.0" />
 	<preference name="stay-in-webview" value="false" />
 	
 </widget>
